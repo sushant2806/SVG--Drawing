@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: wheat;
+  font-family: Arial, sans-serif;
+}
+
+svg {
+  width: 90vw;
+  max-width: 900px;
+  height: 500px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 3%;
+  touch-action: none;
+  cursor: crosshair;
+}
+
+.controls {
+  position: absolute;
+  bottom: 50px;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 16px;
+  background: burlywood;
+  border: none;
+  border-radius: 6px;
+  
+}
+
+button:hover { background: azure; }
